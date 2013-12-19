@@ -39,4 +39,8 @@ Author Information
 WAKAYAMA Shirou
 
 
+Notice
+------
+
+If you want to disable cowsay, set environment variable ANSIBLE_NOCOWS=1  or nocows=1 at ansible.cfg.
 
