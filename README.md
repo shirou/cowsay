@@ -21,7 +21,7 @@ Example
       connection: local
       sudo: yes
       roles:
-          - {role: cowsay}
+          - {role: r_rudi.cowsay}
 
 Dependencies
 -----------------
