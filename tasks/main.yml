@@ -1,0 +1,8 @@
+- yum: name=cowsay state=present
+  when: ansible_os_family == "RedHat"
+- apt: pkg=cowsay  state=present
+  when: ansible_os_family == "Debian"
+- pkgng: name=cowsay  state=present
+  when: ansible_os_family == "FreeBSD"
+- homebrew: name=cowsay  state=present
+  when: ansible_os_family == "Darwin"
